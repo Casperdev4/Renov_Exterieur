@@ -12,17 +12,9 @@ strong{color:#487613}
 a{text-decoration:none;color:#000;font-weight:600}
 .histoire{background-color:#11311a;padding:2% 0;width:80%;margin:10% auto;box-shadow:2px 3px 0 2px #009de0;border-radius:20px 20px 20px 0}
 .histoire h4,.histoire p{color:#fff}
-#tarif{background-color:#b3b3b3;padding:2%;width:100%;margin:10% auto}
+#tarif{background-color:#c9c9c9;padding:2%;width:100%;margin:10% auto}
 #tarif h2,#tarif h3,#tarif p{color:#000}
 #tarif p{text-align:left}
-.valeur h3,.valeur h4{margin-bottom:0;color:#fff;text-align:left}
-.valeur h3,.valeur h4,.valeur p{text-align:left}
-.valeur{background-color:#b3b3b3;width:75%;margin-left:auto;margin-right:auto;opacity:0;transform:translateX(-50%);transition:opacity .5s,transform 1s;border-radius:20px 20px 20px 0}
-.valeur.slide-in-done{opacity:1;transform:translateX(0)}
-.valeur .confiance{display:flex;align-items:center;margin-top:5%;margin-left:2%;font-size:35px;text-align:left}
-.valeur h3{display:flex;align-items:center;font-size:30px}
-.valeur h4{font-size:20px;margin-top:3%}
-.valeur p{margin-left:0;color:#fff;font-size:16px;margin-top:0}
 .icon,.logo,.navbar{display:flex}
 .nav-menu,.navbar{background-color:#fff;left:0;right:0}
 *{box-sizing:border-box;outline:0;margin:0;padding:0}
@@ -57,7 +49,7 @@ a{text-decoration:none;color:#000;font-weight:600}
 .contenu2 img{display:flex;justify-content:center;width:40%;height:auto;margin:7% auto 5%}
 .contenu2 p{margin-left:3%;margin-right:3%;text-align:left}
 .contenu2 h3{font-size:20px;text-align:left;font-weight:600;margin:10% 5% 3% 6%}
-#contact{margin-top:10%;padding:2%;background-color:#11311a}
+#contact{margin-top:10%;padding:2%;background-color:#296339}
 #contact h5{text-align:center;margin:5% 3% 3%;color:#fff;font-weight:600;font-size:20px}
 #contact p{color:#fff}
 .liens a{margin:0;color:#fff;font-size:16px}
@@ -95,18 +87,10 @@ body{margin-top:18%}
 .drop-item a{margin-left:8%;font-size:1.1rem}
 .nav-menu a:hover,.show:hover{color:#487613}
 .image-index{background-size:cover;background-position:center;background-repeat:no-repeat;height:350px;position:relative;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center}
-#nos-valeurs,#prestation,#realisation,.histoire{margin-top:15%}
+#prestation,#realisation,.histoire{margin-top:15%}
 .histoire{width:95%}
 #prestation{margin-top:17%}
-#tarif{width:95%;margin-top:15%;margin-bottom:15%}
-#nos-valeurs{margin-bottom:13%}
-.valeur .confiance,.valeur h3{display:flex;text-align:left;margin-top:5%}
-.valeur{width:100%;padding-left:3%;padding-right:3%;margin-bottom:10%;margin-left:auto;margin-right:auto;opacity:0;transform:translateX(-50%);transition:opacity .5s,transform 1s;border-radius:20px 20px 20px 0}
-.valeur .confiance{align-items:center;margin-left:5%;color:#11311a;font-size:40px}
-.valeur h3{align-items:center;color:#fff;font-size:20px;margin-bottom:2%;margin-left:1%}
-.valeur h4,.valeur p{color:#fff;text-align:left;margin-top:3%}
-.valeur h4{font-size:15px;margin-bottom:0}
-.valeur p{margin-left:0;font-size:14px;padding-bottom:5%;font-weight:100}
+#tarif{margin-top:15%;margin-bottom:15%}
 .icon-anime{display:flex;flex-direction:column;align-items:center}
 .icon-anime h3{opacity:0;transform:translateY(50px);transition:opacity .5s,transform .5s;margin-top:3%}
 .icon-anime h3.slide-up,.bouton-devis3.slide-up{opacity:1;transform:translateY(0)}
@@ -115,6 +99,8 @@ body{margin-top:18%}
 .icon-item1{text-align:center;margin:5px 0;position:relative; width: 90%;margin-left: auto;margin-right: auto;padding: 3%;border: solid 1px rgb(197, 197, 197);}
 .icon-item1 img{width:20%;height:auto;margin-bottom:3%;border-radius: 10px;}
 .icon-item1 p{margin-bottom:0;font-size:22px;}
+.icon-item1:active{background-color: #487613;}
+.icon-item1:active .strong-color, .icon-item1:active h3{color: #fff;}
 .contenu h2,.contenu2 h2{font-size:25px;margin:15% 2% 4%}
 .contenu img{display:flex;width:30%;margin-left:auto;margin-right:auto;margin-top:15%}
 .contenu2 img{display:flex;width:90%;margin:10% auto 8%}

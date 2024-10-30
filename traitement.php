@@ -63,18 +63,18 @@ try {
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
     $mail->Port       = 465;
 
-    $mail->setFrom('contact@webprime.fr', 'Assainissement 75');
+    $mail->setFrom('contact@webprime.fr', 'RénovExterieur');
     $mail->addAddress('renovexterieur@yahoo.com');
     $mail->addAddress('webprime91@hotmail.com');
     $mail->CharSet = 'UTF-8';
     $mail->isHTML(true);
-    $mail->Subject = 'Formulaire 75';
+    $mail->Subject = 'Formulaire';
     $mail->Body    = nl2br($message);
     $mail->AltBody = $message;
 
     $mail->send();
 
-    header('Location: https://assainissement75.fr/');
+    header('Location: https://jardinier-paysagiste-95-val-doise.fr/');
     exit();
 } catch (Exception $e) {
     echo "Message non envoyé. Erreur Mailer: {$mail->ErrorInfo}";
