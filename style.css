@@ -1,6 +1,6 @@
 body{margin:0;padding:0;font-family:'Roboto',sans-serif;background-color:#fff;margin-top:5%}
-hr{width:20%;margin-left:auto;margin-right:auto;height:6px;background:#9eeb47;border-radius:15px}
-h1,h2{color:#094e00;text-align:center}
+hr{width:20%;margin-left:auto;margin-right:auto;height:6px;background:#487613;border-radius:15px}
+h1,h2{color:#11311a;text-align:center}
 h1,h2,h3,h4{text-align:center}
 h1{font-weight:550;font-size:55px;margin-bottom:5%;margin-top:5%;line-height:1.3}
 h2{font-size:40px;font-weight:530;margin:10% 3% 2%}
@@ -8,9 +8,9 @@ h3{color:#000;font-weight:200;font-size:18px;margin:2% 3% 5%;line-height:1.5}
 h4{margin:5% 3%;font-size:20px;font-weight:350}
 .hr{margin:5% auto auto;width:90%}
 p{color:#000;font-size:19px;margin-left:5%;margin-right:5%;text-align:center;padding:2%;line-height:1.7;word-spacing:5px}
-.strong-color{color:#000}
+strong{color:#487613}
 a{text-decoration:none;color:#000;font-weight:600}
-.histoire{background-color:#094e00;padding:2% 0;width:80%;margin:10% auto;box-shadow:2px 3px 0 2px #009de0;border-radius:20px 20px 20px 0}
+.histoire{background-color:#11311a;padding:2% 0;width:80%;margin:10% auto;box-shadow:2px 3px 0 2px #009de0;border-radius:20px 20px 20px 0}
 .histoire h4,.histoire p{color:#fff}
 #tarif{background-color:#b3b3b3;padding:2%;width:100%;margin:10% auto}
 #tarif h2,#tarif h3,#tarif p{color:#000}
@@ -34,10 +34,10 @@ a{text-decoration:none;color:#000;font-weight:600}
 .nav-menu{position:absolute;top:99%}
 .drop-item a,.nav-item a,.show{color:#000;text-decoration:none;font-size:1.2rem;line-height:3;display:block;text-align:center}
 .drop-item a{margin-left:8%;font-size:1rem}
-.nav-menu a:hover,.show:hover{color:#094e00}
+.nav-menu a:hover,.show:hover{color:#11311a}
 .image-index{position:relative;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;height:600px}
 .background-image{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;z-index:-1}
-.image-index h1{color:#000;width:80%;margin-top:auto;z-index:1;font-style:italic}
+.image-index h1{color:#fff;width:80%;margin-top:auto;z-index:1;font-style:italic;font-family:Georgia,serif}
 .bouton-devis1{z-index:1;color:#000}
 .icon-anime{display:flex;justify-content:space-between;align-items:center;margin-top:5%}
 .icon-item1{text-align:center;margin-top:5%;margin-bottom:15%}
@@ -57,21 +57,21 @@ a{text-decoration:none;color:#000;font-weight:600}
 .contenu2 img{display:flex;justify-content:center;width:40%;height:auto;margin:7% auto 5%}
 .contenu2 p{margin-left:3%;margin-right:3%;text-align:left}
 .contenu2 h3{font-size:20px;text-align:left;font-weight:600;margin:10% 5% 3% 6%}
-#contact{margin-top:10%;padding:2%;background-color:#b3b3b3}
-#contact h5{text-align:center;margin:5% 3% 3%;color:#000;font-weight:600;font-size:20px}
-#contact p{color:#000}
-.liens a{margin:0;color:#000;font-size:16px}
-.liens-wp a,.liens-wp p{color:#000;font-size:12px}
-.bouton-devis1{background-color:#094e00;color:#fff;padding:1% 5%;border-radius:25px;text-decoration:none;margin-top:auto;margin-bottom:10%}
-.bouton-devis2{display:flex;justify-content:center;background-color:#094e00;color:#fff;font-size:22px;padding:1%;border-radius:25px;text-decoration:none;margin:2% 35%}
+#contact{margin-top:10%;padding:2%;background-color:#11311a}
+#contact h5{text-align:center;margin:5% 3% 3%;color:#fff;font-weight:600;font-size:20px}
+#contact p{color:#fff}
+.liens a{margin:0;color:#fff;font-size:16px}
+.liens-wp a,.liens-wp p{color:#fff;font-size:12px}
+.bouton-devis1{background-color:#11311a;color:#fff;padding:1% 5%;border-radius:25px;text-decoration:none;margin-top:auto;margin-bottom:10%}
+.bouton-devis2{display:flex;justify-content:center;background-color:#11311a;color:#fff;font-size:22px;padding:1%;border-radius:25px;text-decoration:none;margin:2% 35%}
 .bouton-devis3{opacity:0;transform:translateY(50px);transition:opacity 0.5s,transform .5s;display:flex;justify-content:center;background-color:#ff9f0f;color:#fff;font-size:20px;padding:1%;text-decoration:none;border-radius:25px;margin:2% 35%}
-.bouton-devis3:hover{background-color:#094e00}
+.bouton-devis3:hover{background-color:#11311a}
 .bouton-devis1:hover,.form-container button:hover{background-color:#ffa929}
 .formu-gg{position:relative;display:flex;width:100%;background-color: rgba(0, 0, 0, 0.6);}.form-background{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;z-index:-1;opacity: 0.9;}.form-container{display:flex;flex-direction:column;align-items:center;margin:5% auto;width:40%;padding:20px;box-shadow:0 0 10px rgba(0,0,0,.1);}.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);border:0}.form-container h2{color:#ffffff;font-weight:600;font-size:33px;margin-top:2%;margin-bottom:5%}.form-container h3{margin-top:-5%;margin-bottom:5%}.form-container input,.form-container select{width:100%;height:45px;padding:13px 5px 13px 13px;margin-bottom:4%;box-sizing:border-box;border:1px solid #333;background-color:#f2f2f2;color:#000}.form-container input::placeholder,.form-container textarea::placeholder{font-size:19px;color:#383838}.form-container textarea{width:100%;height:100px;padding-left:13px;padding-top:13px;border:1px solid #333;background-color:#f2f2f2}.form-container button{display:flex;justify-content:center;color:#fff;padding:10px 100px;font-size:18px;margin:3% auto 2%;border:none;border-radius:4px;cursor:pointer;background-color: #000;}.form-container button:hover{background-color:#ffa929}
 .liens-wp a,.liens-wp h6{font-size:13px;color:#fff;text-align:center;font-weight:300;margin-top:3%}
 .contact-icon,.icon-anime,.realisation{display:none}
 @media screen and (max-width:767.98px) {
-h1,h2{color:#094e00}
+h1,h2{color:#11311a}
 h4,p{color:#000;text-align:center}
 h1,h2,h3,h4,p{text-align:center}
 h1{font-weight:550;font-size:30px;margin-bottom:-2%;margin-top:5%}
@@ -93,7 +93,7 @@ body{margin-top:18%}
 .nav-menu{position:absolute;top:98%}
 .drop-item a,.nav-item a,.show{color:#000;text-decoration:none;font-size:1.2rem;line-height:2.5}
 .drop-item a{margin-left:8%;font-size:1.1rem}
-.nav-menu a:hover,.show:hover{color:#9eeb47}
+.nav-menu a:hover,.show:hover{color:#487613}
 .image-index{background-size:cover;background-position:center;background-repeat:no-repeat;height:350px;position:relative;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center}
 #nos-valeurs,#prestation,#realisation,.histoire{margin-top:15%}
 .histoire{width:95%}
@@ -102,8 +102,7 @@ body{margin-top:18%}
 #nos-valeurs{margin-bottom:13%}
 .valeur .confiance,.valeur h3{display:flex;text-align:left;margin-top:5%}
 .valeur{width:100%;padding-left:3%;padding-right:3%;margin-bottom:10%;margin-left:auto;margin-right:auto;opacity:0;transform:translateX(-50%);transition:opacity .5s,transform 1s;border-radius:20px 20px 20px 0}
-.valeur .confiance{align-items:center;margin-left:5%;color:#094e00;font-size:40px}
-.valeur .confiance ion-icon{margin-top:2%;font-size:25px}
+.valeur .confiance{align-items:center;margin-left:5%;color:#11311a;font-size:40px}
 .valeur h3{align-items:center;color:#fff;font-size:20px;margin-bottom:2%;margin-left:1%}
 .valeur h4,.valeur p{color:#fff;text-align:left;margin-top:3%}
 .valeur h4{font-size:15px;margin-bottom:0}
@@ -113,7 +112,7 @@ body{margin-top:18%}
 .icon-anime h3.slide-up,.bouton-devis3.slide-up{opacity:1;transform:translateY(0)}
 .contenu2 p{margin-left:3%;margin-right:3%}
 .contenu2 h3{font-size:20px;text-align:left;margin:10% 5% 3% 6%}
-.icon-item1{text-align:center;margin:5px 0;position:relative; width: 95%;margin-left: auto;margin-right: auto;padding: 3%;border: solid 1px rgb(214, 214, 214);}
+.icon-item1{text-align:center;margin:5px 0;position:relative; width: 90%;margin-left: auto;margin-right: auto;padding: 3%;border: solid 1px rgb(197, 197, 197);}
 .icon-item1 img{width:20%;height:auto;margin-bottom:3%;border-radius: 10px;}
 .icon-item1 p{margin-bottom:0;font-size:22px;}
 .contenu h2,.contenu2 h2{font-size:25px;margin:15% 2% 4%}
@@ -121,15 +120,15 @@ body{margin-top:18%}
 .contenu2 img{display:flex;width:90%;margin:10% auto 8%}
 .contenu h3{margin-top:5%;margin-bottom:7%}
 .contenu p,.contenu2 p{text-align:left}
-.bouton-devis1{background-color:#094e00;color:#fff;padding:2% 8%;border-radius:25px;text-decoration:none;margin-top:auto;margin-bottom:10%}
-.bouton-devis2{background-color:#094e00;font-size:19px;padding:2%;margin:5% 20% 7%}
+.bouton-devis1{background-color:#11311a;color:#fff;padding:2% 8%;border-radius:25px;text-decoration:none;margin-top:auto;margin-bottom:10%}
+.bouton-devis2{background-color:#11311a;font-size:19px;padding:2%;margin:5% 20% 7%}
 .bouton-devis3{display:flex;justify-content:center;color:#fff;font-size:18px;padding:2%;text-decoration:none;opacity:0;transform:translateY(50px);transition:opacity 0.5s,transform .5s;margin:5% 15% 10%}
 .realisation{display:flex;justify-content:center;margin-bottom:10%}
 .realisation img{width:80%;height:auto;margin:0 2%}
-#contact{padding-top:4%;padding-bottom:4%;margin-top:20%}
+#contact{padding-top:4%;padding-bottom:4%;margin-top:0}
 #contact h5{margin-top:10%;margin-bottom:5%;font-weight:600}
 #contact p{text-align:center;margin:0 0 3%;font-size:15px}
-.contact-icon{display:flex;position:fixed;padding:1% 2%;background-color:#094e00;right:4%;bottom:5%;border-radius:20px}
+.contact-icon{display:flex;position:fixed;padding:1% 2%;background-color:#11311a;right:4%;bottom:5%;border-radius:20px}
 .contact-icon a{font-size:18px;font-weight:500;color:#fff;text-decoration:none}
 .liens-wp a,.liens-wp h6{font-size:13px;color:#fff;text-align:center;font-weight:300;margin-top:5%}
 .liens-wp{margin-bottom:-3%}
