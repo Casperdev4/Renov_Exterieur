@@ -94,6 +94,7 @@ body{margin-top:18%}
 .histoire{width:95%}
 #prestation{margin-top:17%}
 #tarif{margin-top:15%;margin-bottom:15%}
+#tarif h2{margin-top: 4%;font-size: 30px;}
 .icon-anime{display:flex;flex-direction:column;align-items:center}
 .icon-anime h3{opacity:0;transform:translateY(50px);transition:opacity .5s,transform .5s;margin-top:3%}
 .icon-anime h3.slide-up,.bouton-devis3.slide-up{opacity:1;transform:translateY(0)}
