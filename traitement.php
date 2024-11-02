@@ -19,13 +19,15 @@ function est_numero_valide($numero) {
     return preg_match('/^(06|07|\+336|\+337)\d{8}$/', $numero);
 }
 
+// Récupération des données du formulaire
 $nom = htmlspecialchars($_POST['nom'], ENT_QUOTES, 'UTF-8');
 $telephone = htmlspecialchars($_POST['telephone'], ENT_QUOTES, 'UTF-8');
-$services = htmlspecialchars($_POST['services'], ENT_QUOTES, 'UTF-8');
-$commentaires = htmlspecialchars($_POST['commentaires'], ENT_QUOTES, 'UTF-8');
+$prestation = htmlspecialchars($_POST['Prestation'], ENT_QUOTES, 'UTF-8');
+$commentaires = htmlspecialchars($_POST['comment'], ENT_QUOTES, 'UTF-8');
 
-if (est_vide($nom) || est_vide($telephone) || est_vide($services) || est_vide($commentaires)) {
-    echo "Tous les champs sont obligatoires.";
+// Validation des champs
+if (est_vide($nom) || est_vide($telephone) || est_vide($prestation) || est_vide($commentaires)) {
+    echo "Champs obligatoires.";
     exit();
 }
 
@@ -41,7 +43,7 @@ if (contient_liens($commentaires) || contient_cyrillique($commentaires)) {
 
 $message = "Nom : $nom \n";
 $message .= "Téléphone : $telephone \n";
-$message .= "Prestation : $services \n";
+$message .= "Prestation : $prestation \n";
 $message .= "Commentaires : $commentaires \n";
 
 use PHPMailer\PHPMailer\PHPMailer;
@@ -80,3 +82,4 @@ try {
     echo "Message non envoyé. Erreur Mailer: {$mail->ErrorInfo}";
 }
 ?>
+
