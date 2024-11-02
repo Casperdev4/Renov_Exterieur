@@ -141,33 +141,30 @@
             </div>
         </section>
         <h2>CONTACTEZ - NOUS</h2>
-        <div class="form-container">
-            <div class="image-container">
-                <img src="logo-removebg-preview.png" alt="déssouchage arbre">
+        <div class="formu-gg">
+            <img src="a71eaf04-58e7-4891-9159-db0357a39ac2.webp" alt="dessouchage arbre" class="form-background">
+            <div class="form-container">
+                <h2>Contactez-nous</h2>
+                <form action="traitement.php" method="post" onsubmit="return validateForm()">
+                    <label for="name" class="sr-only">Nom :</label>
+                    <input type="text" id="name" name="nom" required placeholder="Nom :">
+                    <label for="phone" class="sr-only">Numéro de téléphone :</label>
+                    <input type="tel" id="phone" name="telephone" required placeholder="Téléphone :">
+                    <label for="Prestation" class="sr-only">Prestation :</label>
+                    <select id="Prestation" name="Prestation" required>
+                        <option value="">PRESTATION :</option>
+                        <option value="BATIMENT">BÂTIMENT</option>
+                        <option value="BEAUTE">BEAUTÉ</option>
+                        <option value="COMMERCE">COMMERCE</option>
+                        <option value="HOTELLERIE">HÔTELLERIE</option>
+                        <option value="INFORMATIQUE">INFORMATIQUE</option>
+                        <option value="LOISIR">LOISIR</option>
+                    </select>
+                    <label for="comment" class="sr-only">Commentaires :</label>
+                    <textarea id="comment" name="comment" placeholder="Dites - nous en plus.."></textarea>
+                    <button type="submit">ENVOYER</button>
+                </form>
             </div>
-            <h2>(pas de spam)</h2>
-            <form action="traitement.php" method="post" onsubmit="return validateForm()">
-                <label for="name">Nom :</label>
-                <input type="text" id="name" name="nom" required>
-                <label for="tel">Téléphone :</label>
-                <input type="tel" id="tel" name="telephone" required>
-                <label for="services">Prestations :</label>
-                <select id="services" name="services" required>
-                    <option value="BAC A GRAISSE">BAC À GRAISSE</option>
-                    <option value="CONTRAT D'ENTRETIEN">CONTRAT D'ENTRETIEN</option>
-                    <option value="CURAGE">CURAGE</option>
-                    <option value="DEGORGEMENT">DÉGORGEMENT</option>
-                    <option value="FOSSE SEPTIQUE">FOSSE SEPTIQUE</option>
-                    <option value="INSPECTION CAMERA">INSPECTION CAMÉRA</option>
-                    <option value="POMPAGE">POMPAGE</option>
-                    <option value="POMPE DE RELEVAGE">POMPE DE RELEVAGE</option>
-                    <option value="REPARATION DE RESEAUX">RÉPARATION DE RÉSEAUX</option>
-                    <option value="URGENCE">URGENCE</option>
-                </select>
-                <label for="comments">Commentaires :</label>
-                <textarea id="comments" name="commentaires" rows="4"></textarea>
-                <button type="submit">ENVOYER</button>
-            </form>
         </div>
     </main>
     <footer>
