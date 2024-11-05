@@ -148,7 +148,7 @@
                     <label for="name" class="sr-only">Nom :</label>
                     <input type="text" id="name" name="nom" required placeholder="Nom :">
                     <label for="phone" class="sr-only">Numéro de téléphone :</label>
-                    <input type="tel" id="phone" name="telephone" required placeholder="Téléphone :">
+                        <input type="tel" id="tel" name="telephone" required placeholder="Téléphone :">
                     <label for="Prestation" class="sr-only">Prestation :</label>
                     <select id="Prestation" name="Prestation" required>
                         <option value="">PRESTATION :</option>
@@ -240,23 +240,26 @@
         function validateForm() {
             var name = document.getElementById("name").value.trim();
             var tel = document.getElementById("tel").value.trim();
-            var services = document.getElementById("services").value.trim();
-            var comments = document.getElementById("comments").value.trim();
+            var services = document.getElementById("Prestation").value.trim();
+            var comments = document.getElementById("comment").value.trim();
             if (name === "" || tel === "" || services === "" || comments === "") {
                 alert("Champs obligatoires.");
                 return false;
             }
+            
             var telPattern = /^(06|07|\+336|\+337)\d{8}$/;
             if (!telPattern.test(tel)) {
                 alert("Veuillez entrer un numéro de téléphone valide.");
                 return false;
             }
+            
             var linkPattern = /https?:\/\/[^\s]+|<a\s+href\s*=\s*['"][^\s>]+['"]/i;
             var scriptPattern = /<script[^>]*>[\s\S]*?<\/script>/gi;
             if (linkPattern.test(comments) || scriptPattern.test(comments)) {
                 alert("Pas autorisé.");
                 return false;
             }
+            
             return true;
         }
     </script>
