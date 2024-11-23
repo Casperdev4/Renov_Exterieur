@@ -100,7 +100,7 @@ body{margin-top:18%}
 .icon-anime h3.slide-up,.bouton-devis3.slide-up{opacity:1;transform:translateY(0)}
 .contenu2 p{margin-left:3%;margin-right:3%}
 .contenu2 h3{font-size:20px;text-align:left;margin:10% 5% 3% 6%}
-.icon-item1{text-align:center;margin:5px 0;position:relative; width: 90%;margin-left: auto;margin-right: auto;padding: 3%;border: solid 1px rgb(197, 197, 197);box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2)}
+.icon-item1{text-align:center;margin:5px 0;position:relative; width: 90%;margin-left: auto;margin-right: auto;padding: 3%;border: solid 1px rgb(197, 197, 197);box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);margin-bottom: 3%;}
 .icon-item1 img{width:20%;height:3.9rem;margin-bottom:3%;border-radius: 10px;}
 .icon-item1 p{margin-bottom:0;font-size:22px;}
 .icon-item1:active{background-color: #487613;}
