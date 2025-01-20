@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /traitement.php
+Disallow: /mentions-legales.html
+Sitemap: https://jardinier-paysagiste-95-val-doise.fr/sitemap.xml
