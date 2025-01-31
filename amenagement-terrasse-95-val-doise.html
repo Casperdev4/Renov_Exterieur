@@ -59,7 +59,7 @@
 
 <body>
     <header>
-        <nav class="navbar">
+        <nav class="bug">
             <a href="https://jardinier-paysagiste-95-val-doise.fr/" class="logo-link">
                 <img src="logo-removebg-preview.webp" alt="amenagement terrasse" class="logo">
             </a>
@@ -71,20 +71,20 @@
                 </svg>
             </label>
             <input type="checkbox" id="btn">
-            <ul class="nav-menu">
-                <li class="nav-item">
+            <ul class="navbug">
+                <li class="bug-item">
                     <a href="https://jardinier-paysagiste-95-val-doise.fr/" title="jardinier paysagiste 95 Val-d'Oise">ACCUEIL</a>
                 </li>
-                <li class="nav-item">
+                <li class="bug-item">
                     <a href="https://jardinier-paysagiste-95-val-doise.fr#prestation" title="entreprise espace vert">NOS SERVICES</a>
                 </li>
-                <li class="nav-item">
+                <li class="bug-item">
                     <a href="jardinier-paysagiste-95.html" title="maçon paysagiste">L'ENTREPRISE</a>
                 </li>
-                <li class="nav-item">
+                <li class="bug-item">
                     <a href="devis-paysagiste-95-val-doise.html" title="devis paysagiste">DEVIS GRATUIT</a>
                 </li>
-                <li class="nav-item">
+                <li class="bug-item">
                     <a href="tel:+33641398225" title="devis jardinier">06 41 39 82 25
                     </a>
                 </li>
@@ -92,14 +92,14 @@
         </nav>
     </header>
     <main>
-        <div class="image-index">
+        <div class="accueil">
             <img src="amenagement-terrasse-bois.webp" alt="amenagement terrasse exterieur" class="background-image">
             <h1><i>Amenagement terrasse 95 - Amenagement terrasse bois 95 Val-d'Oise</i></h1>
             <a class="bouton-devis1" href="devis-paysagiste-95-val-doise.html" title="prix aménagement terrasse">DEVIS
                 GRATUIT</a>
         </div>
         <section>
-            <div class="contenu2">
+            <div class="contenuu2">
                 <h2>Aménagement de terrasse</h2>
                 <img src="amenagement-terrasse-bois.webp" alt="aménagement terrasse jardin"
                     title="aménager sa terrasse" loading="lazy" decoding="async">
@@ -133,9 +133,9 @@
                 </p>
             </div>
         </section>
-        <div class="formu-gg">
+        <div class="f-bg">
             <img src="jardinier_paysagiste_95_val_doise.webp" alt="amenagement jardin et terrasse" class="form-background">
-            <div class="form-container">
+            <div class="f-bg-form">
                 <h2>Contactez-nous</h2>
                 <form action="traitement.php" method="post" onsubmit="return validateForm()">
                     <label for="name" class="sr-only">Nom :</label>
@@ -185,7 +185,7 @@
                         href="mentions-legales.html" target="_blank">mentions légales</a></h5>
             </div>
         </div>
-        <div class="contact-icon"><a href="tel:+33641398225" title="aménagement terrasse devant maison">06 41 39 82 25
+        <div class="tel-x"><a href="tel:+33641398225" title="aménagement terrasse devant maison">06 41 39 82 25
             </a></div>
     </footer>
     <script>
@@ -201,7 +201,7 @@
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             var menuToggle = document.getElementById("btn");
-            var navLinks = document.querySelectorAll(".nav-menu a");
+            var navLinks = document.querySelectorAll(".navbug a");
             navLinks.forEach(function (link) {
                 link.addEventListener("click", function () {
                     menuToggle.checked = false;
@@ -223,7 +223,7 @@
                     }
                 });
             }, options);
-            const elements = document.querySelectorAll('.icon-anime h3, .bouton-devis3');
+            const elements = document.querySelectorAll('.mobile-s h3, .bd3');
             elements.forEach(element => {
                 observer.observe(element);
             });

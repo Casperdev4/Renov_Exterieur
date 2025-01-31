@@ -25,7 +25,7 @@
 
 <body>
     <header>
-        <nav class="navbar">
+        <nav class="bug">
             <a href="https://jardinier-paysagiste-95-val-doise.fr/" class="logo-link">
                 <img src="logo-removebg-preview.webp" alt="jardinier paysagiste paris 75" class="logo">
             </a>
@@ -37,21 +37,21 @@
                 </svg>
             </label>
             <input type="checkbox" id="btn">
-            <ul class="nav-menu">
-                <li class="nav-item">
+            <ul class="navbug">
+                <li class="bug-item">
                     <a href="https://jardinier-paysagiste-95-val-doise.fr/"
                         title="jardinier paysagiste 95 Val-d'Oise">ACCUEIL</a>
                 </li>
-                <li class="nav-item">
+                <li class="bug-item">
                     <a href="https://jardinier-paysagiste-95-val-doise.fr#prestation" title="entreprise espace vert">NOS SERVICES</a>
                 </li>
-                <li class="nav-item">
+                <li class="bug-item">
                     <a href="jardinier-paysagiste-95.html" title="maçon paysagiste">L'ENTREPRISE</a>
                 </li>
-                <li class="nav-item">
+                <li class="bug-item">
                     <a href="devis-paysagiste-95-val-doise.html" title="devis paysagiste">DEVIS GRATUIT</a>
                 </li>
-                <li class="nav-item">
+                <li class="bug-item">
                     <a href="tel:+33641398225" title="devis jardinier">06 41 39 82 25
                     </a>
                 </li>
@@ -59,7 +59,7 @@
         </nav>
     </header>
     <main>
-        <div class="image-index">
+        <div class="accueil">
             <img src="amenagement-terrasse-bois.webp" alt="jardinier paysagiste" class="background-image">
             <h1><i>Rénov Exterieur - Mentions Légales</i></h1>
             <a class="bouton-devis1" href="devis-paysagiste-95-val-doise.html" title="devis jardinier">DEVIS
@@ -98,7 +98,7 @@
                         href="mentions-legales.html" target="_blank">mentions légales</a></h5>
             </div>
         </div>
-        <div class="contact-icon"><a href="tel:+33641398225">06 41 39 82 25
+        <div class="tel-x"><a href="tel:+33641398225">06 41 39 82 25
             </a></div>
     </footer>
     <script>
@@ -114,7 +114,7 @@
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             var menuToggle = document.getElementById("btn");
-            var navLinks = document.querySelectorAll(".nav-menu a");
+            var navLinks = document.querySelectorAll(".navbug a");
             navLinks.forEach(function (link) {
                 link.addEventListener("click", function () {
                     menuToggle.checked = false;
@@ -138,7 +138,7 @@
                 });
             }, options);
 
-            const elements = document.querySelectorAll('.icon-anime h3, .bouton-devis3');
+            const elements = document.querySelectorAll('.mobile-s h3, .bd3');
 
             elements.forEach(element => {
                 observer.observe(element);
