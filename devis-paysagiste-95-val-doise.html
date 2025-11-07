@@ -311,36 +311,48 @@
                     transparents.
                 </p>
             </div>
-            <div class="f-bg">
-                <img src="jardinier_paysagiste_95_val_doise.webp" alt="maçon paysagiste"
-                    class="form-background">
-                <div class="f-bg-form">
-                    <h2>Contactez-nous</h2>
-                    <form action="traitement.php" method="post" onsubmit="return validateForm()">
-                        <label for="name" class="sr-only">Nom :</label>
-                        <input type="text" id="name" name="nom" required placeholder="Nom :">
-                        <label for="phone" class="sr-only">Numéro de téléphone :</label>
-                        <input type="tel" id="tel" name="telephone" required placeholder="Téléphone :">
-                        <label for="Prestation" class="sr-only">Prestation :</label>
-                        <select id="Prestation" name="Prestation" required>
-                            <option value="">PRESTATION :</option>
-                            <option value="Jardins">Jardins</option>
-                            <option value="Espace vert">Espace vert</option>
-                            <option value="Elagage - Abattage">Elagage - Abattage</option>
-                            <option value="Système Irrigation">Système Irrigation</option>
-                            <option value="Maçonnerie">Maçonnerie</option>
-                            <option value="Terrasses">Terrasses</option>
-                            <option value="Clôture - Grillage">Clôture - Grillage</option>
-                            <option value="Cour - Allées">Cour - Allées</option>
-                            <option value="Entretien Annuel">Entretien Annuel</option>
-                            <option value="Autre">Autre</option>
-                        </select>
-                        <label for="comment" class="sr-only">Commentaires :</label>
-                        <textarea id="comment" name="comment" placeholder="Dites - nous en plus.."></textarea>
-                        <button type="submit">ENVOYER</button>
-                    </form>
-                </div>
-            </div>
+<div class="f-bg">
+    <img src="jardinier_paysagiste_95_val_doise.webp" alt="amenagement veranda" class="form-background">
+    <div class="f-bg-form">
+        <h2>Contactez-nous</h2>
+
+        <form action="https://formsubmit.co/webprime91@hotmail.com" method="POST" onsubmit="return validateForm()">
+
+            <!-- Anti-spam -->
+            <input type="hidden" name="_captcha" value="false">
+
+            <!-- Si tu veux rester sur LA MÊME PAGE, pas de redirection -->
+            <!-- (donc pas de _next ici) -->
+
+            <label for="name" class="sr-only">Nom :</label>
+            <input type="text" id="name" name="nom" required placeholder="Nom :">
+
+            <label for="phone" class="sr-only">Numéro de téléphone :</label>
+            <input type="tel" id="tel" name="telephone" required placeholder="Téléphone :">
+
+            <label for="Prestation" class="sr-only">Prestation :</label>
+            <select id="Prestation" name="Prestation" required>
+                <option value="">PRESTATION :</option>
+                <option value="Jardins">Jardins</option>
+                <option value="Espace vert">Espace vert</option>
+                <option value="Elagage - Abattage">Élagage - Abattage</option>
+                <option value="Système Irrigation">Système Irrigation</option>
+                <option value="Maçonnerie">Maçonnerie</option>
+                <option value="Terrasses">Terrasses</option>
+                <option value="Clôture - Grillage">Clôture - Grillage</option>
+                <option value="Cour - Allées">Cour - Allées</option>
+                <option value="Entretien Annuel">Entretien Annuel</option>
+                <option value="Autre">Autre</option>
+            </select>
+
+            <label for="comment" class="sr-only">Commentaires :</label>
+            <textarea id="comment" name="comment" placeholder="Dites-nous en plus.."></textarea>
+
+            <button type="submit">ENVOYER</button>
+        </form>
+    </div>
+</div>
+
         </section>
     </main>
     <footer>
