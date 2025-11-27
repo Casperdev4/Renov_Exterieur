@@ -65,7 +65,7 @@ try {
 
     $mail->setFrom('contact@webprime.fr', 'Renov Exterieur');
     $mail->addAddress('renovexterieur@yahoo.com');
-    $mail->addAddress('webprime91@hotmail.com');
+    $mail->addAddress('formulaire@webprime.fr');
     $mail->CharSet = 'UTF-8';
     $mail->isHTML(true);
     $mail->Subject = 'Formulaire';
