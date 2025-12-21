@@ -324,10 +324,10 @@
                     <input type="hidden" name="_captcha" value="true">
                     <label for="name">Nom :</label>
                     <input type="text" id="name" name="nom" required placeholder="Nom :">
-                    <label for="tel">Téléphone :</label>
-                    <input type="tel" id="tel" name="tel" pattern="^((\+33|0)[1679])[0-9]{8}$" maxlength="12" required>
-                    <label for="email">Email :</label>
-                    <input type="email" id="email" name="email" required>
+                    <label for="tel" class="sr-only">Téléphone :</label>
+                    <input type="tel" id="tel" name="tel" pattern="^((\+33|0)[1679])[0-9]{8}$" maxlength="12" required placeholder="Téléphone :">
+                    <label for="email" class="sr-only">Email :</label>
+                    <input type="email" id="email" name="email" required placeholder="Email :">
                     <label for="Prestation">Prestation :</label>
                     <select id="Prestation" name="prestation" required>
                         <option value="">PRESTATION :</option>
