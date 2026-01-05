@@ -507,6 +507,150 @@ body{margin-top:18%}
 .liens-wp{margin-bottom:-3%}
 .f-bg{display:flex;justify-content:center;align-items:center;width:100%;margin-top: 5%;}.f-bg-form{display:flex;align-items:center;margin:5% auto;width:90%;box-shadow:0 0 10px rgba(0,0,0,.1);color:#fff}.f-bg-form h2{margin:1% 1% 12%;font-size:30px}.f-bg-form label{display:block;margin-bottom:8px;font-size:20px}.f-bg-form input,.f-bg-form select{width:100%;height:35px;padding:8px 8px 8px 15px;margin-bottom:8%;box-sizing:border-box;}.f-bg-form input::placeholder,.f-bg-form textarea::placeholder{font-size:17px;color:#323232}.f-bg-form textarea{width:100%;height:100px;padding-left:15px;padding-top:8px;background-color:#f2f2f2}.f-bg-form button{display:flex;justify-content:center;padding:10px 40px;font-size:18px;margin-top: 10%;border-radius:5px;cursor:pointer}.f-bg-form button:active{background-color:#ffa929}
 .r-pc,.pc-s,.pc-s2{display:none}
+
+/* Mobile overrides for desktop enhancements */
+.accueil::before {
+    background: linear-gradient(135deg, rgba(17, 49, 26, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);
+}
+.bouton-devis1 {
+    font-size: 16px;
+    padding: 12px 30px;
+}
+.contenuu {
+    max-width: 100%;
+    margin: 40px 10px;
+    padding: 25px 15px;
+    border-radius: 15px;
+    background: #ffffff;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+}
+.contenuu h2 {
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+.contenuu h2::after {
+    width: 70px;
+    height: 3px;
+}
+.contenuu hr {
+    display: block;
+}
+.contenuu p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+.contenuu2 {
+    max-width: 100%;
+    margin: 40px 10px;
+    padding: 25px 15px;
+    border-radius: 15px;
+    background: #f8f9fa;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.06);
+}
+.contenuu2 h2 {
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+.contenuu2 h2::after {
+    width: 70px;
+    height: 3px;
+}
+.contenuu2 img {
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+#tarif {
+    max-width: 100%;
+    margin: 50px 10px;
+    padding: 30px 20px;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #11311a 0%, #1a4a28 100%);
+    box-shadow: 0 8px 30px rgba(17, 49, 26, 0.25);
+}
+#tarif h2 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+#tarif h3 {
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+#tarif p {
+    font-size: 16px;
+    line-height: 1.7;
+    text-align: center;
+}
+#tarif .bouton-devis2 {
+    padding: 12px 35px;
+    font-size: 18px;
+    margin: 20px auto 5px;
+}
+.f-bg {
+    margin: 30px 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+.f-bg-form {
+    background: rgba(17, 49, 26, 0.85);
+    padding: 30px 20px;
+    border-radius: 0;
+}
+.f-bg-form h2 {
+    font-size: 26px;
+    margin-bottom: 25px;
+    padding-bottom: 12px;
+}
+.f-bg-form h2::after {
+    width: 60px;
+    height: 3px;
+}
+.f-bg-form input, .f-bg-form select, .f-bg-form textarea {
+    font-size: 15px;
+}
+.f-bg-form button {
+    padding: 12px 40px;
+    font-size: 16px;
+    border-radius: 25px;
+}
+.bd3 {
+    max-width: none;
+    margin: 30px 15px;
+    padding: 14px 30px;
+    font-size: 16px;
+    border-radius: 25px;
+}
+#contact {
+    background: #c9c9c9;
+    padding: 25px 15px;
+}
+#contact h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+#prestation {
+    font-size: 32px;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+#prestation::after {
+    width: 80px;
+    height: 4px;
+}
+.nnnnn {
+    box-shadow: 0 5px 20px rgba(17, 49, 26, 0.2);
+}
+.nnnnn:hover {
+    transform: none;
+    box-shadow: 0 5px 20px rgba(17, 49, 26, 0.2);
+}
+/* Reset strong gradient for mobile readability */
+strong {
+    background: none;
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: #487613;
+    background-clip: unset;
+    color: #487613;
+}
 }
 label {
   color: white;
