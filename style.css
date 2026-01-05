@@ -533,7 +533,7 @@ body{margin-top:18%}
     height: 3px;
 }
 .contenuu hr {
-    display: block;
+    display: none;
 }
 .contenuu p {
     font-size: 17px;
