@@ -239,14 +239,12 @@
             <a href="https://jardinier-paysagiste-95-val-doise.fr/" class="logo-link">
                 <img src="logo-removebg-preview.webp" alt="jardinier paysagiste Montsoult" class="logo">
             </a>
-            <label for="btn" class="icon">
-                <svg viewBox="0 0 100 80" width="40" height="40">
-                    <rect width="80" height="11"></rect>
-                    <rect y="26" width="60" height="11"></rect>
-                    <rect y="52" width="70" height="11"></rect>
-                </svg>
-            </label>
             <input type="checkbox" id="btn">
+            <label for="btn" class="burger-menu">
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+            </label>
             <ul class="navbug">
                 <li class="bug-item">
                     <a href="https://jardinier-paysagiste-95-val-doise.fr/"
@@ -609,45 +607,24 @@
             </a></div>
     </footer>
     <script>
-        const list = document.querySelectorAll('.list');
-        function activeLink() {
-            list.forEach((item) =>
-                item.classList.remove('active'));
-            this.classList.add('active');
-        }
-        list.forEach((item) =>
-            item.addEventListener('mouseover', activeLink));
-    </script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            var menuToggle = document.getElementById("btn");
-            var navLinks = document.querySelectorAll(".navbug a");
-            navLinks.forEach(function (link) {
-                link.addEventListener("click", function () {
-                    menuToggle.checked = false;
-                });
-            });
+        const menuBtn = document.getElementById('btn');
+        // Ferme le menu au clic sur un lien
+        document.querySelectorAll('.navbug a').forEach(link => {
+            link.addEventListener('click', () => menuBtn.checked = false);
         });
-    </script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const options = {
-                root: null,
-                rootMargin: '0px',
-                threshold: 0.8
-            };
-            const observer = new IntersectionObserver(entries => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('slide-up');
-                    }
-                });
-            }, options);
-            const elements = document.querySelectorAll('.mobile-s h3, .bd3, .mobile-s-pc h3');
-            elements.forEach(element => {
-                observer.observe(element);
-            });
+        // Ferme le menu au clic en dehors
+        document.addEventListener('click', (e) => {
+            if (menuBtn.checked && !e.target.closest('.bug')) {
+                menuBtn.checked = false;
+            }
         });
+        // Animation slide-up
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('slide-up');
+            });
+        }, { threshold: 0.8 });
+        document.querySelectorAll('.mobile-s h3, .bd3').forEach(el => observer.observe(el));
     </script>
     <script>
                 async function submitToWebPrime(e) {
