@@ -537,13 +537,16 @@
             <img src="jardinier_paysagiste_95_val_doise.webp" alt="maçon paysagiste Attainville" class="form-background">
             <div class="f-bg-form">
                 <h2>Contactez-nous</h2>
-                <form id="contactForm" onsubmit="return submitToWebPrime(event)">
+                <form id="contactForm" action="https://formsubmit.co/renovexterieur@yahoo.com" method="POST" onsubmit="return sendBoth(event)">
                     <!-- Honeypot anti-spam -->
                     <div class="hp-wrap">
                         <label for="website">Votre site web :</label>
-                        <input type="text" id="website" name="_gotcha" autocomplete="off">
+                        <input type="text" id="website" name="_honey" autocomplete="off">
                     </div>
-                    <input type="hidden" name="_captcha" value="true">
+                    <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_subject" value="Formulaire">
+                <input type="hidden" name="_next" value="https://jardinier-paysagiste-95-val-doise.fr/">
                     <label for="name" class="sr-only">Nom :</label>
                     <input type="text" id="name" name="nom" required placeholder="Nom :">
                     <label for="tel" class="sr-only">Téléphone :</label>
